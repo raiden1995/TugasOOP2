@@ -1,16 +1,12 @@
-public class Mahasiswa{
-
-	public String nama ;
+public class Mahasiswa {
+	String nama;
 	
-	public void kuliah (){
-		System.out.println ("Kuliah");
-	}
-	
-	public static void main (String[]args){
-		Mahasiswa rendy = new Mahasiswa();
-		
-		rendy.nama= "Rai Pangestu ";
-		rendy.kuliah();
-	}
-
+	Mahasiswa() { //konstruktor
+		nama = "java";
+		System.out.println(nama);
+}
+public static void main (String[] args) {
+		Mahasiswa mhs = new Mahasiswa ();
+		System.out.println(mhs.nama);
+}
 }
