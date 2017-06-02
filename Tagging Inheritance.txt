@@ -1,0 +1,3 @@
+Tagging Interface adalah dengan tanpa metode abstract didalamnya mereka digunakan untuk menambahkan
+						 tipe data untuk kelas yang mengimplementasikannya dan menjadi Interface induk
+						 untuk Interface lain
